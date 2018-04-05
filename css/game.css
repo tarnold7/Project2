@@ -1,0 +1,33 @@
+h2, p {font-family: "Lobster", serif;}
+.background    { background: rgb(245, 255, 250);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background: rgb(112, 128, 144); }
+.tele 		   { background-image: url(images/door.jpg);
+		         background-size: 30px 30px;
+				 background-color: rgb(160,82,45); }
+.floater	   {background: rgb(255 , 255, 0); }
+
+.actor  { position: absolute;  }
+.player { background-image: url(images/beemo.png);
+		   background-size: 40px 40px;}
+.coin { background: rgb(98, 213, 34); }
+.speedUp { background: rgb(255 , 255, 0); }
+.flower  { background-image: url(images/flower.gif);
+		   background-size: 30px 30px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px pink, 4px -7px 8px pink;
+}
